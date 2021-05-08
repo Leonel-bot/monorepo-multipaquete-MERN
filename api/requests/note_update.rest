@@ -1,0 +1,8 @@
+PUT  http://localhost:3001/api/notes/60930470c87cb710e05e73ee
+Content-Type: application/json
+
+{
+    "title" : "Nueva nota multipaquete MERN actualizada otra vez",
+    "description" : "descrpcion de nota mern actualizada",
+    "important" : true
+}

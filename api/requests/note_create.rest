@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/notes/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwOTQ1YTg1MTAzNmVlMGU4YzY2YzZjNCIsInVzZXJuYW1lIjoiU3RpY2tmaWd1cmUiLCJpYXQiOjE2MjA1MDA1NTJ9.6uYS2jEmTSFQR0Kz6fk2wrFnFTHx_VK-lJqGpkwVyDY
+
+{
+    "title" : "Nueva nota multipaquete MERN",
+    "description" : "descrpcion de nota mern",
+    "important" : true,
+    "userId" : "60945a851036ee0e8c66c6c4"
+}

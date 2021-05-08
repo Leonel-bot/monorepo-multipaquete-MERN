@@ -1,0 +1,93 @@
+.formNote h3{
+    font-size: 25px;
+    color: #232020;
+}
+.formNote form{
+    width: 300px;
+    display: grid;
+    margin: auto;
+}
+
+input[type="text"]{
+    height: 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+    border: 1px solid #f9f3f3;
+    background: #f4f4f4;
+    padding-left: 10px;
+    outline: none;
+}
+input[type="radio"]{
+    margin-right: 15px;
+}
+input[type="radio"]:checked::after{
+    width: 13px;
+    height: 13px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background: #ff7315;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+.formNote button{
+    height: 30px;
+    margin: 10px;
+    background: #ff7315;
+    border: none;
+    border-radius: 3px;
+    color: #f4f4f4;
+    font-size: 14px;
+}
+.formNote button:active{
+    background: #cc5c11;
+}
+
+
+
+.list_note{
+    width: 300px;
+    margin: auto;
+}
+.notes{    
+    height: 500px;
+    overflow: auto;
+}
+
+
+.list_note h4{
+    font-size: 20px;
+    color: #232020;
+}
+
+.note{
+    height: 35px;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.note p{
+    width: 200px;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: #232020;
+}
+.note button{
+    border-radius: 3px;
+    background: none;
+    color: #fb3640;
+    border: 1px solid #fb3640;
+}
+
+.note button:active{
+    border-radius: 3px;
+    background: none;
+    color: #ffffff;
+    background: #fb3640;
+}
